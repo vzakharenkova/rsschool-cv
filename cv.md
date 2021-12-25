@@ -47,3 +47,9 @@ var uniqueInOrder=function(iterable){
     * JavaScript: The Definitive Guide, 7th Edition by David Flanagan
 
 4. **JS/FE Pre-School 2022 (in progress)**
+
+## Experience
+**2019 - now:** Ernst & Young LLC (Advanced Staff: Specialist in accounting and taxation)
+## Languages
+* **Russian** - native speaker
+* **English** - B1
