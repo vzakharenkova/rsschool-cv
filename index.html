@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CV vzakharenkova</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+                <h1>Victoria Zakharenkova</h1>
+        </header>
+        <main>
+            <nav>
+                <div id="photo"></div>
+                <div>
+                    <h2>Contacts</h2>
+                    <div>
+                        <ul>
+                            <li><b>Location:</b> Minsk, Belarus</li>
+                            <li><b>Phone:</b> +375 33 678-14-52</li>
+                            <li><b>Email:</b> v.s.zakharenkova@gmail.com</li>
+                            <li><b>GitHub:</b><a target="_blank" href="https://github.com/vzakharenkova"> vzakharenkova</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2>Skills</h2>
+                    <div>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript (Basic)</li>
+                            <li>Git/GitHub (Basic)</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2>Languages</h2>
+                    <div>
+                        <ul>
+                            <li><b>Russian</b> - native speaker</li>
+                            <li><b>English</b> - B1</li>
+                        </ul>
+                    </div>
+                </div>  
+            </nav>
+            <section>
+                <div>
+                    <h2>About me</h2>
+                    <div>
+                        I am 22 years old and I work as an accountant. 
+                        In my current job, I don't like that you have to do a repetitive job every month. 
+                        I want to gain knowledge in the field of front-end development and work as developer in future. 
+                        In my opinion, working as front-end developmer, it is necessary to solve many different tasks 
+                        that require not only a mathematical, technical and logical approach, but also a creative one.
+                    </div>
+                    <div  id="stengths">
+                        <b>My strengths:</b>
+                        <ul>
+                            <li>goal-oriented</li>
+                            <li>a team-player</li>
+                            <li>responsible and hard-working</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2>Code Examples</h2>
+                    <div>
+                        <div>
+                            <div id="kata">
+                                <b>KATA from CODEWARS: Unique In Order</b>
+                            </div>
+                            <div>
+                                Implement the function unique_in_order which takes as argument a sequence and returns a list of items 
+                                without any elements with the same value next to each other and preserving the original order of elements.
+                            </div>
+                        </div>
+    <pre>
+        <code>
+let uniqueInOrder=function(iterable){
+    let arr = Array.isArray(iterable) 
+        ? iterable 
+        : iterable.split('');
+    function reducer(uniqueArr, currentVal) {
+        if (uniqueArr[uniqueArr.length -1] !== currentVal) {
+            uniqueArr.push(currentVal);
+            }
+        return uniqueArr;
+        }
+    let unique = arr.reduce(reducer, []);
+    return unique;
+    }
+        </code>
+    </pre>
+                    </div>
+                </div>
+                <div>
+                    <h2>Projects</h2>
+                    <div>
+                        This CV is my first project. So you can find it <a target="_blank" href="https://vzakharenkova.github.io/rsschool-cv/"> here</a>.
+                    </div>
+                </div>
+                <div>
+                    <h2>Education</h2>
+                    <div>
+                        <ol>
+                            <li>
+                                <b>Bachelor`s degree, Belarus State Economic University (2016-2020):</b> School of Accounting and Economics 
+                                (Department of Accounting, Analysis and Audit in Trade) 
+                            </li>
+                            <li>
+                                <b>HTML5/CSS3:</b>
+                                <ul>
+                                    <li><a target="_blank" href="http://htmlbook.ru/">htmlbook</a></li>
+                                    <li><a target="_blank" href="https://www.youtube.com/c/FreelancerLifeStyle">YouTube: FreelancerLifeStyle</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>JavaScript (in progress):</b>
+                                <ul>
+                                    <li><a target="_blank" href="https://learn.javascript.ru/">E-book</a></li>
+                                    <li>JavaScript: The Definitive Guide, 7th Edition by David Flanagan</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>JS/FE Pre-School 2022 (in progress)</b>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div>
+                    <h2>Experience</h2>
+                    <div>
+                        <b>2019 - now:</b> Ernst & Young LLC (Advanced Staff: Specialist in accounting and taxation)
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a target="_blank" href="https://github.com/vzakharenkova">My GitHub profile</a>
+                created in 2021.
+            </div>
+            <div>
+                <a target="_blank" href="https://rs.school/js/"><img  id="logo" src="https://rs.school/images/rs_school_js.svg" alt="RS School logo"></a>
+            </div>
+        </footer>
+    </body>
+</html>
