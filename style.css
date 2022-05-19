@@ -1,5 +1,5 @@
 #content-wrapper {
-    max-width: 1400px;
+    width: fit-content;
     margin: 30px auto;
     border: 3px solid rgb(22, 53, 95);
     font-family: 'Smooch Sans', sans-serif;
@@ -156,4 +156,22 @@ footer a {
 }
 #aside-content a {
     color: white;
+}
+
+@media (max-width: 700px) {
+    #project-list a {
+        width: 35vw;
+    }
+}
+
+@media (max-width: 450px) {
+    #project-list a {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 350px) {
+    #project-list a {
+        width: 55vw;
+    }
 }
