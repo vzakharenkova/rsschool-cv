@@ -54,10 +54,16 @@ main .title {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #project-list a:hover {
     color: white;
     background-color: rgb(22, 53, 95);
+}
+#project-list label {
+    display: block;
+    flex-basis: 30%;
+    margin-bottom: 5px;
 }
 #project-list a {
     display: inline-block;
@@ -66,9 +72,13 @@ main .title {
     color: black;
     background-color: rgba(62, 122, 179, 0.541);
     padding: 5px;
-    width: 150px;
+    width: 20vw;
     text-align: center;
     transition: all 0.7s ease 0.5s;
+}
+.additional_info {
+    font-size: 10px;
+    margin-top: 10px;
 }
 aside {
     background-color: rgb(22, 53, 95);
@@ -112,17 +122,17 @@ li {
     height: 100%;
 }
 .skill-css {
-    width: 70%;
+    width: 65%;
     background-color: rgb(62, 122, 179);
     height: 100%;
 }
 .skill-js {
-    width: 60%;
+    width: 55%;
     background-color: rgb(62, 122, 179);
     height: 100%;
 }
 .skill-react {
-    width: 10%;
+    width: 5%;
     background-color: rgb(62, 122, 179);
     height: 100%;
 }
