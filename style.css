@@ -34,7 +34,7 @@ header {
     font-weight: 300;
 }
 #photo {
-    background: url("my photo.jpeg") no-repeat center center;
+    background: url("my photo.jpg") no-repeat center center;
     border-radius: 50%;
     height: 180px;
     width: 180px;
