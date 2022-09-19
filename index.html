@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
     <title>CV vzakharenkova</title>
@@ -16,100 +16,186 @@
   <body>
     <div id="content-wrapper">
       <div id="content">
-        <div id="left-side">
-          <header>
-            <div id="photo"></div>
-            <div id="name">
-              <h1>Victoria Zakharenkova</h1>
-              <h2>Trainee/Junior Frontend developer</h2>
-            </div>
-          </header>
-          <main>
-            <div>
-              <h2 class="title">About me</h2>
-              <div class="description">
-                <p>I've started learning in September, 2021.</p>
-                <p>
-                  I want to improve knowledge in the field of front-end
-                  development and work as developer in future.
-                </p>
-                <p>
-                  In my opinion, working as front-end developmer, it is
-                  necessary to solve many different tasks that require not only
-                  a mathematical, technical and logical approach, but also a
-                  creative one
-                </p>
-                .
+        <div id="left-side" class="side">
+          <div class="side-content">
+            <header>
+              <div id="photo"></div>
+              <div id="name">
+                <h1>Victoria Zakharenkova</h1>
+                <h2>Trainee / Junior Frontend developer</h2>
               </div>
+            </header>
+            <section class="contacts">
+              <h2 class="title">Contacts</h2>
               <div class="description">
-                <b>My strengths:</b> goal-oriented, a team-player, responsible
-                and hard-working.
+                <ul>
+                  <li>
+                    <div class="contacts_icon location_icon"></div>
+                    <a
+                      target="_blank"
+                      href="https://www.google.com/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.8832697,27.0191114,10z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972"
+                      >Minsk, Belarus</a
+                    >
+                  </li>
+                  <li>
+                    <div class="contacts_icon call_icon"></div>
+                    <a target="_blank" href="+375 33 678-14-52"
+                      >+375 33 678-14-52</a
+                    >
+                  </li>
+                  <li>
+                    <div class="contacts_icon mail_icon"></div>
+                    <a target="_blank" href="mailto:v.s.zakharenkova@gmail.com"
+                      >v.s.zakharenkova@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <div class="contacts_icon gh_icon"></div>
+                    <a target="_blank" href="https://github.com/vzakharenkova">
+                      vzakharenkova</a
+                    >
+                  </li>
+                  <li>
+                    <div class="contacts_icon in_icon"></div>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/viktoriya-zakharenkova-94a526218/"
+                    >
+                      Viktoriya Zakharenkova</a
+                    >
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div>
+            </section>
+            <section class="skills">
+              <h2 class="title">Skills</h2>
+              <div class="description">
+                <ul>
+                  <li class="skill-html">
+                    <div class="skill-title">HTML5</div>
+                  </li>
+                  <li class="skill-css">
+                    <div class="skill-title">CSS3</div>
+                  </li>
+                  <li class="skill-sass">
+                    <div class="skill-title">SASS</div>
+                  </li>
+                  <li class="skill-js">
+                    <div class="skill-title">JavaScript</div>
+                  </li>
+                  <li class="skill-ts">
+                    <div class="skill-title">TypeScript</div>
+                  </li>
+                  <li class="skill-webpack">
+                    <div class="skill-title">Webpack</div>
+                  </li>
+                  <li class="skill-git">
+                    <div class="skill-title">Git/GitHub</div>
+                  </li>
+                  <li class="skill-vs">
+                    <div class="skill-title">VS Code</div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="projects">
               <h2 class="title">Projects</h2>
               <div class="description">
                 <div id="project-list">
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/memory-game/memory-game/"
-                      >Memory game</a
-                    ></label
-                  >
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/portfolio/portfolio/"
-                      >Portfolio</a
-                    ></label
-                  >
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/Shelter/shelter/pages/main/"
-                      >Shelter</a
-                    ></label
-                  >
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/movie-app/movie-app/"
-                      >Movie App</a
-                    ></label
-                  >
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/online-store/online-store/dist/"
-                      >Online store</a
-                    ></label
-                  >
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/async-race/async-race/dist/"
-                      >Async race</a
-                    ></label
-                  >
-                  <label
-                    ><a
-                      target="_blank"
-                      href="https://vzakharenkova.github.io/cssMemSlider/cssMemSlider/"
-                      >Mem slider</a
-                    ></label
-                  >
-                  <label
+                  <label class="project-lang"
                     ><a
                       target="_blank"
                       href="https://rslang-pavelkizhlo.netlify.app/"
                       >Lang App</a
                     ></label
                   >
+                  <label class="project-game"
+                    ><a
+                      target="_blank"
+                      href="https://vzakharenkova.github.io/memory-game/memory-game/"
+                      >Memory game</a
+                    ></label
+                  >
+                  <label class="project-portfolio"
+                    ><a
+                      target="_blank"
+                      href="https://vzakharenkova.github.io/portfolio/portfolio/"
+                      >Portfolio</a
+                    ></label
+                  >
+                  <label class="project-shelter"
+                    ><a
+                      target="_blank"
+                      href="https://vzakharenkova.github.io/Shelter/shelter/pages/main/"
+                      >Shelter</a
+                    ></label
+                  >
+                  <label class="project-movie"
+                    ><a
+                      target="_blank"
+                      href="https://vzakharenkova.github.io/movie-app/movie-app/"
+                      >Movie App</a
+                    ></label
+                  >
+                  <label class="project-store"
+                    ><a
+                      target="_blank"
+                      href="https://vzakharenkova.github.io/online-store/online-store/dist/"
+                      >Online store</a
+                    ></label
+                  >
+                  <label class="project-race"
+                    ><a
+                      target="_blank"
+                      href="https://vzakharenkova.github.io/async-race/async-race/dist/"
+                      >Async race</a
+                    ></label
+                  >
                 </div>
               </div>
-            </div>
-            <div>
+            </section>
+            <section class="languages">
+              <h2 class="title">Languages</h2>
+              <div class="description">
+                <ul>
+                  <li><b>Russian</b> - native speaker</li>
+                  <li><b>English</b> - B1</li>
+                </ul>
+              </div>
+            </section>
+            <footer>
+              <div>
+                <a target="_blank" href="https://github.com/vzakharenkova"
+                  >@vzakharenkova</a
+                >
+                © 2022.
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div id="right-side" class="side">
+          <div class="side-content">
+            <section class="about_me">
+              <h2 class="title">About me</h2>
+              <div class="description">
+                <p>I've started learning in September, 2021.</p>
+                <p>
+                  My goal is to improve knowledge in the field of front-end
+                  development and start working as a developer soon.
+                </p>
+                <p>
+                  In my opinion, working as front-end developmer, it is
+                  necessary to solve many different tasks that require not only
+                  a mathematical, technical and logical approach, but also a
+                  creative one.
+                </p>
+                <p>
+                  <b>My strengths:</b> goal-oriented, a team-player, responsible
+                  and hard-working.
+                </p>
+              </div>
+            </section>
+            <section class="education">
               <h2 class="title">Education</h2>
               <div class="description">
                 <ol>
@@ -149,16 +235,30 @@
                       >Documention</a
                     >.
                   </li>
+                  <li>
+                    <b
+                      ><a
+                        target="_blank"
+                        href="https://www.codewars.com/users/vzakharenkova"
+                        >Codewars (4kyu).</a
+                      ></b
+                    >
+                  </li>
                   <!-- <li>
-                    <b>React (beginner): </b>
-                    <a target="_blank" href="https://ru.reactjs.org/"
-                      >React documentation</a
-                    >, YouTube.
-                  </li> -->
+                      <b>React (beginner): </b>
+                      <a target="_blank" href="https://ru.reactjs.org/"
+                        >React documentation</a
+                      >, YouTube.
+                    </li> -->
                   <li>
                     <b
                       ><a target="_blank" href="https://rs.school/js-stage0/"
-                        >JS/FE Pre-School 2022.</a
+                        >JS/FE Pre-School 2022
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://app.rs.school/certificate/fxl9x2it"
+                        >(Certificate).</a
                       ></b
                     >
                   </li>
@@ -183,10 +283,17 @@
                       ></b
                     >
                   </li>
+                  <li>
+                    <b
+                      ><a target="_blank" href="https://rs.school/react/"
+                        >React 2022Q3 (planned, from October, 2022).</a
+                      ></b
+                    >
+                  </li>
                 </ol>
               </div>
-            </div>
-            <div>
+            </section>
+            <section class="plans">
               <h2 class="title">In plans to learn</h2>
               <div class="description">
                 <p>
@@ -200,127 +307,33 @@
                   course.
                 </p>
                 <p>
-                  In my next projects, I'll try to use Sass framework to write
+                  In my next projects, I'll try to use SASS framework to write
                   page styles.
+                </p>
+                <p>
+                  I also pay attention to learning English several times a week.
                 </p>
                 <p>
                   It's very important for me to constantly develop in order to
                   become a good and professional developer.
                 </p>
               </div>
-            </div>
-            <div>
+            </section>
+            <section class="experience">
               <h2 class="title">Experience</h2>
               <div class="description">
                 <b>2019 - July 2022:</b> Ernst & Young LLC (Advanced Staff:
                 Specialist in accounting and taxation)
               </div>
-            </div>
-          </main>
-          <footer>
-            <div>
-              <a target="_blank" href="https://github.com/vzakharenkova"
-                >My GitHub profile</a
-              >
-              © 2022.
-            </div>
-          </footer>
-        </div>
-        <div class="aside">
-          <div id="aside-content">
-            <div>
-              <h2 class="title">Contacts</h2>
-              <div class="description">
-                <ul>
-                  <li><b>Location:</b> Minsk, Belarus</li>
-                  <li><b>Phone:</b> +375 33 678-14-52</li>
-                  <li>
-                    <b>Email:</b>
-                    <a href="mailto:v.s.zakharenkova@gmail.com"
-                      >v.s.zakharenkova@gmail.com</a
-                    >
-                  </li>
-                  <li>
-                    <b>GitHub:</b
-                    ><a target="_blank" href="https://github.com/vzakharenkova">
-                      vzakharenkova</a
-                    >
-                  </li>
-                  <li>
-                    <b>LinkedIn:</b
-                    ><a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/viktoriya-zakharenkova-94a526218/"
-                    >
-                      Viktoriya Zakharenkova</a
-                    >
-                  </li>
-                </ul>
+            </section>
+            <footer>
+              <div>
+                <a target="_blank" href="https://github.com/vzakharenkova"
+                  >@vzakharenkova</a
+                >
+                © 2022.
               </div>
-            </div>
-            <div>
-              <h2 class="title">Skills</h2>
-              <div class="description">
-                <ul>
-                  <li>
-                    HTML5
-                    <div class="skill-container">
-                      <div class="skill-html"></div>
-                    </div>
-                  </li>
-                  <li>
-                    CSS3, SASS
-                    <div class="skill-container">
-                      <div class="skill-css"></div>
-                    </div>
-                  </li>
-                  <li>
-                    JavaScript (Basic)
-                    <div class="skill-container">
-                      <div class="skill-js"></div>
-                    </div>
-                  </li>
-                  <li>
-                    TypeScript (Basic)
-                    <div class="skill-container">
-                      <div class="skill-ts"></div>
-                    </div>
-                  </li>
-                  <li>
-                    Webpack
-                    <div class="skill-container">
-                      <div class="skill-wp"></div>
-                    </div>
-                  </li>
-                  <!-- <li>React (Beginner)
-                                        <div class="skill-container">
-                                            <div class="skill-react"></div>
-                                        </div>
-                                    </li> -->
-                  <li>
-                    Git/GitHub (Basic)
-                    <div class="skill-container">
-                      <div class="skill-git"></div>
-                    </div>
-                  </li>
-                  <li>
-                    VS Code
-                    <div class="skill-container">
-                      <div class="skill-vs"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <h2 class="title">Languages</h2>
-              <div class="description">
-                <ul>
-                  <li><b>Russian</b> - native speaker</li>
-                  <li><b>English</b> - B1</li>
-                </ul>
-              </div>
-            </div>
+            </footer>
           </div>
         </div>
       </div>
