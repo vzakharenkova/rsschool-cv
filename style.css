@@ -197,10 +197,10 @@ footer a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
 }
-/* .project-lang {
+.project-lang {
   grid-column-start: 1;
   grid-column-end: 3;
-} */
+}
 
 #project-list a {
   width: 100%;
