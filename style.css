@@ -151,7 +151,7 @@ footer a:hover {
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.skill-sass {
+.skill-git {
   grid-column-start: 9;
   grid-column-end: 12;
   grid-row-start: 1;
@@ -169,23 +169,59 @@ footer a:hover {
   grid-row-start: 2;
   grid-row-end: 3;
 }
-.skill-webpack {
+.skill-angular {
   grid-column-start: 9;
   grid-column-end: 12;
   grid-row-start: 2;
   grid-row-end: 3;
 }
-.skill-git {
-  grid-column-start: 3;
-  grid-column-end: 6;
+.skill-rxjs {
+  grid-column-start: 1;
+  grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+.skill-ngrx {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.skill-mat {
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.skill-react {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.skill-tailwind {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.skill-matUI {
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.skill-webpack {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 .skill-vs {
   grid-column-start: 7;
   grid-column-end: 10;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 .skill-title {
   width: 100%;
@@ -197,10 +233,10 @@ footer a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
 }
-.project-lang {
+/* .project-lang {
   grid-column-start: 1;
   grid-column-end: 3;
-}
+} */
 
 #project-list a {
   width: 100%;
